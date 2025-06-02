@@ -1,6 +1,10 @@
+import Counter from "./components/Counter"
+import "./index.scss";
 
 export default function App() {
   return (
-    <div>App</div>
+    <main className="container">
+      <Counter />
+    </main>
   )
 }
