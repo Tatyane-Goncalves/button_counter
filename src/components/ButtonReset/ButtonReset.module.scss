@@ -1,0 +1,10 @@
+@use "../../styles/variables" as v;
+
+.btn_reset {
+  background-color: v.$buttonReset;
+  color: v.$boxNumber;
+
+  &:hover {
+    background-color: darken(v.$buttonReset, 10%);
+  }
+}
