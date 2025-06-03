@@ -21,6 +21,7 @@ Criar um componente chamado `Contador` que:
 - ✅ Limite de cliques: `10`
 - ✅ Desativa o botão ao atingir o limite
 - ✅ Mensagem de aviso quando atingir o máximo
+- ✅ Botão "Resetar" que zera o contador e reativa o botão.
 
 ---
 
@@ -93,7 +94,7 @@ npm run dev
 ---
 
 ## 🧪 Funcionalidades Extras (Se implementadas)
-- 🔁 Botão "Resetar" que zera o contador e reativa o botão.
+
 - ✨ Animação no número ao incrementar.
 - 📘 Versão em TypeScript.
 
