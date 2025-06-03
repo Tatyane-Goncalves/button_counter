@@ -1,0 +1,14 @@
+@use "../../styles/variables" as v;
+
+.btn_increment {
+  background-color: v.$buttonActive;
+
+   &:hover {
+    background-color: darken(v.$buttonActive, 10%);
+  }
+}
+
+.btn_increment:disabled {
+  background-color: v.$buttonDisabled;
+  cursor: not-allowed;
+}
