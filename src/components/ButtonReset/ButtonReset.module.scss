@@ -4,7 +4,7 @@
   background-color: v.$buttonReset;
   color: v.$boxNumber;
 
-  &:hover {
-    background-color: darken(v.$buttonReset, 10%);
+  &:hover { 
+    background-color: rgba(0, 123, 255, 0.8);
   }
 }

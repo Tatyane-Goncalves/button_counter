@@ -39,8 +39,17 @@ product-card/
 │   ├── images
 │   │    └── preview.png
 │   ├── components
-│   │    ├── Button.jsx
-│   │    └── Button.module.scss
+│   │   ├── ButtonIncrement
+│   │   │    ├──ButtonIncrement.jsx
+│   │   │    └── ButtonIncrement.module.scss
+│   │   ├── ButtonReset
+│   │   │    ├──ButtonReset.jsx
+│   │   │    └── ButtonReset.module.scss
+│   │   └─ Counter
+│   │        ├── Counter.jsx
+│   │        └── Counter.module.scss
+│   ├── styles
+│   │     └── _variables.scss
 │   ├── App.jsx
 │   ├── index.scss
 │   └── main.js
