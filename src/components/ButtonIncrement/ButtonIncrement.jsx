@@ -1,7 +1,8 @@
 import styles from "./ButtonIncrement.module.scss"
 
-export default function ButtonIncrement({ onClick }) {
+export default function ButtonIncrement({ onClick, disabled }) {
+
   return (
-     <button onClick={onClick} className={styles.btn_increment}>Incrementar</button>
+     <button onClick={onClick} disabled={disabled} className={styles.btn_increment}>Incrementar</button>
   )
 }

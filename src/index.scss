@@ -20,3 +20,15 @@ main {
   place-items: center;
   height: 100vh;
 }
+
+button {
+  color: v.$boxNumber;
+  padding: v.$padding_button;
+  border: none;
+  border-radius: v.$border_button;
+  font-size: v.$fs-small;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+ 

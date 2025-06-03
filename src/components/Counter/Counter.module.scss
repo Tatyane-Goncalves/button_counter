@@ -1,4 +1,4 @@
-@use "../styles/variables" as v;
+@use "../../styles/variables" as v;
 
 .counter {
   background-color: v.$boxNumber;
@@ -20,25 +20,6 @@
   font-weight: v.$fw-500;
 }
 
-.btn_increment {
-  background-color: v.$buttonActive;
-}
-
-.btn_increment:disabled {
-  background-color: v.$buttonDisabled;
-  cursor: not-allowed;
-}
-
-button {
-  color: v.$boxNumber;
-  padding: v.$padding_button;
-  border: none;
-  border-radius: v.$border_button;
-  font-size: v.$fs-small;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
 .btn_reset {
   background-color: v.$buttonReset;
 }
@@ -57,5 +38,29 @@ button {
 
   .messageLimit {
     font-size: v.$fs-base;
+  }
+}
+
+@media (width < 600px) {
+  h1 {
+    font-size: v.$fs-big;
+  }
+
+  .messageLimit {
+    font-size: v.$fs-base;
+  }
+
+  button {
+    width: 100%;
+    padding: v.$fs-base;
+    font-size: v.$fs-base;
+  }
+}
+
+@media (width >= 601px) {
+  button {
+    min-width: 200px;
+    font-size: v.$fs_button_big;
+    padding: v.$fs-base v.$paddding_counter;
   }
 }

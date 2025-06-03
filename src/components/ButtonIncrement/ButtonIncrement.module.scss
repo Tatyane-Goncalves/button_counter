@@ -12,3 +12,19 @@
   background-color: v.$buttonDisabled;
   cursor: not-allowed;
 }
+
+.animate {
+  animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,4 +1,4 @@
-import Counter from "./components/Counter"
+import Counter from "./components/Counter/Counter";
 import "./index.scss";
 
 export default function App() {
@@ -6,5 +6,5 @@ export default function App() {
     <main className="container">
       <Counter />
     </main>
-  )
+  );
 }
