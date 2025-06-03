@@ -1,4 +1,5 @@
-# 🧮 Projeto Contador React
+![Contador de clique](./src/images/preview.png)
+# 🧮 Projeto Contador de clique com React + SCSS
 
 Um contador interativo feito com React, como parte de um desafio de prática front-end para iniciantes.
 
@@ -36,8 +37,6 @@ Criar um componente chamado `Contador` que:
 ```bash
 product-card/
 ├── src
-│   ├── images
-│   │    └── preview.png
 │   ├── components
 │   │   ├── ButtonIncrement
 │   │   │    ├──ButtonIncrement.jsx
@@ -48,6 +47,8 @@ product-card/
 │   │   └─ Counter
 │   │        ├── Counter.jsx
 │   │        └── Counter.module.scss
+│   ├── images
+│   │    └── preview.png
 │   ├── styles
 │   │     └── _variables.scss
 │   ├── App.jsx
@@ -98,9 +99,9 @@ npm run dev
 
 ---
 
-## 📸 Demonstração (opcional)
-> Em breve...
-
+## 📸 Demonstração 
+![Contador de clique](./src/images/preview.png)
+[🔗 Deploy](https://button-counter.netlify.app/)
 ---
 
 ## 📚 Aprendizados
