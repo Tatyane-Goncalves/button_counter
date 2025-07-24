@@ -1,125 +1,112 @@
-![Contador de clique](./src/images/preview.png)
-# 🧮 Projeto Contador de clique com React + SCSS
+## 🧮 Projeto Contador de clique 
+> 🚧 Em construção
 
-Um contador interativo feito com React, como parte de um desafio de prática front-end para iniciantes.
-
----
+Um contador interativo feito com React, TypeScript, Shadcn/UI, como parte de um desafio de prática front-end para iniciantes.
 
 ## 🚀 Objetivo
+Criar um componente chamado Contador que:
 
-Criar um componente chamado `Contador` que:
 - Mostra um número inicial (começando do zero).
-- Incrementa esse número com um botão.
+- Incrementa e decrementa esse número com um botão.
 - Ao atingir 10, desativa o botão e exibe uma mensagem.
 
----
-
-## ✨  Funcionalidades
-
-- ✅ Valor inicial: `0`
+## ✨ Funcionalidades
+- ✅ Valor inicial: 0
 - ✅ Botão “Incrementar” que soma +1 a cada clique
-- ✅ Limite de cliques: `10`
+- ✅ Botão “Decrementar” que soma +1 a cada clique
+- ✅ Limite de cliques: 10
 - ✅ Desativa o botão ao atingir o limite
 - ✅ Mensagem de aviso quando atingir o máximo
 - ✅ Botão "Resetar" que zera o contador e reativa o botão.
 
----
-
 ## 🚀 Tecnologias
+- Vite
+- React
+- TypeScript
+- Shadcn/UI
+- Tailwind
+- Biome
 
-- [React](https://reactjs.org/)
-- SCSS (SCSS modules)
-- JavaScript (ES6+)
-- [Vite](https://vitejs.dev/) (para build e dev server rápido)
 
----
-
-## 🧱 Estrutura do Projeto
-```bash
-product-card/
+````bash
+button_counter/
 ├── src
 │   ├── components
+│   │   ├── ui
+│   │   │   ├── button.tsx
+│   │   │   └── card.tsx
+│   │   │  
+│   │   ├── ButtonDecrement
+│   │   │    └── ButtonDecrement.tsx
+│   │   │  
 │   │   ├── ButtonIncrement
-│   │   │    ├──ButtonIncrement.jsx
-│   │   │    └── ButtonIncrement.module.scss
+│   │   │    └── ButtonIncrement.tsx
+│   │   │  
 │   │   ├── ButtonReset
-│   │   │    ├──ButtonReset.jsx
-│   │   │    └── ButtonReset.module.scss
+│   │   │    └── ButtonReset.tsx
+│   │   │  
 │   │   └─ Counter
-│   │        ├── Counter.jsx
-│   │        └── Counter.module.scss
-│   ├── images
-│   │    └── preview.png
-│   ├── styles
-│   │     └── _variables.scss
-│   ├── App.jsx
+│   │        └── Counter.tsx
+│   ├── lib
+│   │    └── utils.ts
+│   │    
+│   ├── App.tsx
 │   ├── index.scss
-│   └── main.js
+│   └── main.tsx
+│   
 ├── .gitignore
-├── eslint.config.js
+├── biome.jsonc
+├── components.json
 ├── index.html
 ├── package.json
 ├── package-lock.json
 ├── README.md
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
 └── vite.config.js
-
-```
-
----
+````
 
 ## 📦 Como rodar o projeto
 
 1. Clone o repositório:
-
-```bash
+````bash
 git clone hhttps://github.com/Tatyane-Goncalves/button_counter.git
-```
+````
 
 2. Acesse a pasta do projeto:
-```bash
+````bash
 cd button_counter
-```
+````
 
 3. Instale as dependências:
-```bash
+````bash
 npm install
-```
+````
 
-4. Rode o projeto:
-```bash
+4. Rode o projeto
+````bash
 npm run dev
-```
-> Observação: Esse projeto foi iniciado com Vite. Se estiver usando CRA (Create React App), substitua o comando acima por ``npm start``.
-
----
+````
 
 ## 🧪 Funcionalidades Extras (Se implementadas)
-
 - ✨ Animação no número ao incrementar.
-- 📘 Versão em TypeScript.
 
----
-
-## 📸 Demonstração 
-![Contador de clique](./src/images/preview.png)
-[🔗 Deploy](https://button-counter.netlify.app/)
----
+## 📸 Demonstração
+> Em breve!
 
 ## 📚 Aprendizados
 Este projeto foi criado para treinar os seguintes conceitos:
 
 - Componentes funcionais no React
-- Uso do `useState`
+- Uso do useState
 - Condicionais de renderização
 - Estilização básica e responsividade
 - Boas práticas de código e organização
-
----
+- Utilização de TypeScript
 
 ## 🤝 Contribuição
-Pull requests são bem-vindos! Siga os padrões de código, prefira nomes claros e descritivos, use tipagem explícita sempre que possível. Evite hardcoded, e priorize a reutilização do componente. Estilos devem estar isolados usando `.module.scss` ou seguindo a metodologia `BEM`.
-
----
+Pull requests são bem-vindos! Siga os padrões de código, prefira nomes claros e descritivos, use tipagem explícita sempre que possível. Evite hardcoded, e priorize a reutilização do componente.
 
 ## ✍️ Autora
 Made with 💜 by **Tatyane Gonçalves**
