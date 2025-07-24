@@ -1,3 +1,4 @@
+import { ArrowUp } from 'lucide-react'
 import { Button } from './ui/button'
 
 interface ButtonIncrementProps {
@@ -10,8 +11,8 @@ export default function ButtonIncrement({
   disabled,
 }: ButtonIncrementProps) {
   return (
-    <Button disabled={disabled} onClick={onClick} size={'lg'}>
-      Incrementar
+    <Button disabled={disabled} onClick={onClick} size={'icon'}>
+      <ArrowUp />
     </Button>
   )
 }

@@ -1,4 +1,6 @@
+import { ArrowDown } from 'lucide-react'
 import { Button } from './ui/button'
+
 
 interface ButtonDecrementProps {
   onClick: () => void
@@ -10,8 +12,8 @@ export default function ButtonDecrement({
   disabled,
 }: ButtonDecrementProps) {
   return (
-    <Button disabled={disabled} onClick={onClick} size={'lg'}>
-      Decrementar
+    <Button disabled={disabled} onClick={onClick} size={'icon'}>
+      <ArrowDown />
     </Button>
   )
 }

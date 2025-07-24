@@ -1,3 +1,4 @@
+import { Loader } from 'lucide-react'
 import { Button } from './ui/button'
 
 interface ButtonResetProps {
@@ -7,7 +8,7 @@ interface ButtonResetProps {
 export default function ButtonReset({ onReset }: ButtonResetProps) {
   return (
     <Button onClick={onReset} variant={'secondary'}>
-      Resetar
+      <Loader />
     </Button>
   )
 }
